@@ -14,11 +14,16 @@ function gamechcustomtheme_enqueue_scripts() {
     wp_enqueue_style('hero-style', get_template_directory_uri() . '/assets/css/hero.css', [], time());
     wp_enqueue_style('about-style', get_template_directory_uri() . '/assets/css/about.css', [], time());
     wp_enqueue_style('our-service-style', get_template_directory_uri() . '/assets/css/our-service.css', [], time());
+    wp_enqueue_style('about-snapshot-style', get_template_directory_uri() . '/assets/css/about-snapshot.css', [], time());
+    wp_enqueue_style('global-presence-style', get_template_directory_uri() . '/assets/css/global-presence.css', [], time());
     wp_enqueue_style('footer-style', get_template_directory_uri() . '/assets/css/footer.css', [], time());
     
     // JavaScript files
-    wp_enqueue_script('menu-js', get_template_directory_uri() . '/assets/js/menu.js', array(), time(), true);
+    wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/script.js', array(), time(), true);
     wp_enqueue_script('hero-slider-js', get_template_directory_uri() . '/assets/js/hero-slider.js', array(), time(), true);
+    wp_enqueue_script('about-snapshot-js', get_template_directory_uri() . '/assets/js/about-snapshot.js', array(), time(), true);
+    wp_enqueue_script('service-overview-js', get_template_directory_uri() . '/assets/js/service-overview.js', array(), time(), true);
+      wp_enqueue_script('global-presence-js', get_template_directory_uri() . '/assets/js/global-presence.js', array(), time(), true);
 }
 add_action('wp_enqueue_scripts', 'gamechcustomtheme_enqueue_scripts');
 
@@ -41,7 +46,7 @@ function gamechcustomtheme_setup() {
 }
 add_action('after_setup_theme', 'gamechcustomtheme_setup');
 
-// Optional: Add custom logo support
+// Add custom logo support
 function gamechcustomtheme_custom_logo_setup() {
     add_theme_support('custom-logo', array(
         'height'      => 60,

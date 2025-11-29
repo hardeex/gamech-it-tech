@@ -163,7 +163,7 @@
 /* Slider Indicators */
 .slider-indicators {
   position: absolute;
-  bottom: 100px;
+  bottom: 70px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -468,7 +468,7 @@
 /* Scroll Indicator */
 .scroll-indicator {
   position: absolute;
-  bottom: 40px;
+  bottom: 5px;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

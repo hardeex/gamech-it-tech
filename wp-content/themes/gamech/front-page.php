@@ -146,68 +146,29 @@ get_header();
     </div>
 </section>
 
-<!-- SERVICES PREVIEW SECTION -->
-<section class="services-preview">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-label">What We Offer</span>
-            <h2 class="section-title">Our Core Services</h2>
-            <p class="section-description">
-                Comprehensive IT solutions tailored to your business needs
-            </p>
-        </div>
-        
-        <div class="services-grid">
-            <div class="service-card" data-aos="fade-up" data-aos-delay="0">
-                <div class="service-icon">
-                    <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
-                    </svg>
-                </div>
-                <h3>Software Development</h3>
-                <p>Custom applications and enterprise systems designed for your business growth.</p>
-                <a href="<?php echo home_url('/services'); ?>" class="service-link">Learn More →</a>
-            </div>
-            
-            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-icon">
-                    <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
-                    </svg>
-                </div>
-                <h3>Cloud Solutions</h3>
-                <p>Scalable cloud infrastructure and migration services for modern businesses.</p>
-                <a href="<?php echo home_url('/services'); ?>" class="service-link">Learn More →</a>
-            </div>
-            
-            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
-                <div class="service-icon">
-                    <svg width="40" height="40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                    </svg>
-                </div>
-                <h3>Cybersecurity</h3>
-                <p>Protect your digital assets with enterprise-grade security solutions.</p>
-                <a href="<?php echo home_url('/services'); ?>" class="service-link">Learn More →</a>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- CTA SECTION -->
-<section class="cta-section">
-    <div class="container">
-        <div class="cta-content">
-            <h2>Ready to Transform Your Business?</h2>
-            <p>Let's discuss how we can help you achieve your technology goals</p>
-            <a href="<?php echo home_url('/contact'); ?>" class="btn btn-primary btn-large">
-                Start Your Project Today
-                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
-                </svg>
-            </a>
-        </div>
-    </div>
-</section>
+<!-- ============================================
+     ABOUT US SNAPSHOT SECTION 
+     ============================================ -->
+<?php get_template_part('about-snapshot-section'); ?>
+
+
+<!-- ============================================
+     OUR SERVICE SNAPSHOT SECTION 
+     ============================================ -->
+
+<?php get_template_part('our-service-snapshot'); ?>
+
+
+<!-- ============================================
+     GLOBAL PRESENCE SNAPSHOT SECTION 
+     ============================================ -->
+
+<?php get_template_part('global-presence-section'); ?>
+
+
+
+
+
 
 <?php get_footer(); ?>
