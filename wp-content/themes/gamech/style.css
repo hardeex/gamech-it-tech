@@ -1,0 +1,25 @@
+/*
+Theme Name: Gamech Custom Theme
+Theme URI: http://codequor.com
+Author: Jamiu Ysuuf Adewale
+Author URI: http://codequor.com
+Description: A custom WordPress theme for global IT solutions provider. Features modern design, interactive elements, and responsive layout.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gamech
+Tags: custom, business, it-services, responsive, modern
+Requires at least: 5.0
+Tested up to: 6.4
+Requires PHP: 7.4
+
+Right Reserved: SM DIGITAL
+*/
+
+/* 
+This is the main stylesheet that WordPress recognizes.
+All actual styles are loaded from /assets/css/styles.css via functions.php
+This file only contains the theme header information required by WordPress.
+*/
+
+/* You can add any global overrides or quick fixes here if needed */
