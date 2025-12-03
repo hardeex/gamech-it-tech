@@ -55,7 +55,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(0, 0) rotate(0deg);
   }
   33% {
@@ -78,7 +79,11 @@
 .section-label {
   display: inline-block;
   padding: 8px 24px;
-  background: linear-gradient(135deg, rgba(146, 47, 22, 0.1), rgba(146, 47, 22, 0.05));
+  background: linear-gradient(
+    135deg,
+    rgba(146, 47, 22, 0.1),
+    rgba(146, 47, 22, 0.05)
+  );
   border: 1px solid rgba(146, 47, 22, 0.2);
   border-radius: 50px;
   font-size: 13px;
@@ -93,13 +98,18 @@
 }
 
 .section-label::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
   transition: left 0.5s ease;
 }
 
@@ -156,8 +166,9 @@
   position: relative;
   width: 100%;
   height: 100%;
-  transition: transform 0.6s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
   transform-style: preserve-3d;
+  padding: 15px;
 }
 
 .service-card:hover .service-card-inner {
@@ -173,7 +184,7 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  transition: all 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(10, 14, 41, 0.08);
   overflow: hidden;
   z-index: 1;
@@ -191,7 +202,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(146, 47, 22, 0.05), rgba(10, 14, 41, 0.02));
+  background: linear-gradient(
+    135deg,
+    rgba(146, 47, 22, 0.05),
+    rgba(10, 14, 41, 0.02)
+  );
   opacity: 0;
   transition: opacity 0.4s ease;
   border-radius: 20px;
@@ -215,13 +230,17 @@
   position: relative;
   width: 80px;
   height: 80px;
-  background: linear-gradient(135deg, rgba(146, 47, 22, 0.1), rgba(146, 47, 22, 0.05));
+  background: linear-gradient(
+    135deg,
+    rgba(146, 47, 22, 0.1),
+    rgba(146, 47, 22, 0.05)
+  );
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--brick);
-  transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 2;
 }
 
@@ -234,7 +253,7 @@
   background: var(--brick);
   border-radius: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1;
   opacity: 0.1;
 }
@@ -316,7 +335,7 @@
 }
 
 .service-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -440,7 +459,7 @@
   font-weight: 700;
   text-decoration: none;
   border-radius: 12px;
-  transition: all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   border: 2px solid transparent;
   font-family: var(--font-body);
   cursor: pointer;
@@ -485,7 +504,8 @@
    =================================== */
 
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     transform: translate(-50%, -50%) scale(1);
     opacity: 0.03;
   }
@@ -511,12 +531,24 @@
   animation: cardSlideUp 0.6s ease backwards;
 }
 
-.service-card:nth-child(1) { animation-delay: 0.1s; }
-.service-card:nth-child(2) { animation-delay: 0.2s; }
-.service-card:nth-child(3) { animation-delay: 0.3s; }
-.service-card:nth-child(4) { animation-delay: 0.4s; }
-.service-card:nth-child(5) { animation-delay: 0.5s; }
-.service-card:nth-child(6) { animation-delay: 0.6s; }
+.service-card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.service-card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.service-card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.service-card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.service-card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+.service-card:nth-child(6) {
+  animation-delay: 0.6s;
+}
 
 /* ===================================
    RESPONSIVE DESIGN
@@ -526,16 +558,16 @@
   .services-overview {
     padding: 100px 0;
   }
-  
+
   .section-title {
     font-size: 40px;
   }
-  
+
   .services-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
   }
-  
+
   .service-card {
     min-height: 400px;
   }
@@ -545,60 +577,60 @@
   .services-overview {
     padding: 80px 0;
   }
-  
+
   .section-header {
     margin-bottom: 50px;
   }
-  
+
   .section-title {
     font-size: 36px;
   }
-  
+
   .section-description {
     font-size: 16px;
   }
-  
+
   .services-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .service-card {
     min-height: 380px;
   }
-  
+
   .service-front {
     padding: 35px 25px;
   }
-  
+
   .service-icon-wrapper {
     width: 70px;
     height: 70px;
   }
-  
+
   .service-icon {
     width: 70px;
     height: 70px;
   }
-  
+
   .service-front h3 {
     font-size: 20px;
   }
-  
+
   .service-front p {
     font-size: 14px;
   }
-  
+
   .bg-shape.shape-1 {
     width: 300px;
     height: 300px;
   }
-  
+
   .bg-shape.shape-2 {
     width: 250px;
     height: 250px;
   }
-  
+
   .featured-cta-card .service-front {
     padding: 40px 30px;
   }
@@ -608,72 +640,72 @@
   .services-overview {
     padding: 60px 0;
   }
-  
+
   .section-label {
     font-size: 11px;
     padding: 6px 18px;
   }
-  
+
   .section-title {
     font-size: 28px;
   }
-  
+
   .section-description {
     font-size: 15px;
   }
-  
+
   .service-card {
     min-height: 360px;
   }
-  
+
   .service-front {
     padding: 30px 20px;
   }
-  
+
   .service-icon-wrapper {
     width: 60px;
     height: 60px;
     margin-bottom: 20px;
   }
-  
+
   .service-icon {
     width: 60px;
     height: 60px;
     border-radius: 12px;
   }
-  
+
   .service-icon svg {
     width: 32px;
     height: 32px;
   }
-  
+
   .service-front h3 {
     font-size: 18px;
     margin-bottom: 12px;
   }
-  
+
   .service-front p {
     font-size: 14px;
     margin-bottom: 15px;
   }
-  
+
   .feature-badge {
     font-size: 11px;
     padding: 5px 12px;
   }
-  
+
   .service-link {
     font-size: 14px;
   }
-  
+
   .featured-content h3 {
     font-size: 20px;
   }
-  
+
   .featured-content p {
     font-size: 14px;
   }
-  
+
   .btn {
     width: 100%;
     justify-content: center;

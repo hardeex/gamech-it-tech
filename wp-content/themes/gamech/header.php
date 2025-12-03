@@ -51,9 +51,10 @@ function gamechcustomtheme_fallback_menu() {
     echo '<ul class="nav-menu">';
     echo '<li class="' . (is_front_page() ? 'current-menu-item' : '') . '"><a href="' . home_url('/') . '">Home</a></li>';
     echo '<li class="' . (is_page('about') ? 'current-menu-item' : '') . '"><a href="' . home_url('/about') . '">About</a></li>';
-    echo '<li class="' . (is_page('services') ? 'current-menu-item' : '') . '"><a href="' . home_url('/services') . '">Services</a></li>';
-    echo '<li class="' . (is_page('global-operations') ? 'current-menu-item' : '') . '"><a href="' . home_url('/global-operations') . '">Global Operations</a></li>';
+    echo '<li class="' . (is_page('blog') ? 'current-menu-item' : '') . '"><a href="' . home_url('/blog') . '">Blog</a></li>';
     echo '<li class="' . (is_page('contact') ? 'current-menu-item' : '') . '"><a href="' . home_url('/contact') . '">Contact</a></li>';
+    echo '<li class="' . (is_page('services') ? 'current-menu-item' : '') . '"><a href="' . home_url('/services') . '">Services</a></li>';
+
     echo '</ul>';
 }
 ?>

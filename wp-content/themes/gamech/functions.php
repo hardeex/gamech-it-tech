@@ -22,6 +22,7 @@ function gamechcustomtheme_enqueue_scripts() {
     wp_enqueue_script('script-js', get_template_directory_uri() . '/assets/js/script.js', array(), time(), true);
     wp_enqueue_script('hero-slider-js', get_template_directory_uri() . '/assets/js/hero-slider.js', array(), time(), true);
     wp_enqueue_script('about-snapshot-js', get_template_directory_uri() . '/assets/js/about-snapshot.js', array(), time(), true);
+        wp_enqueue_script('about-js', get_template_directory_uri() . '/assets/js/about.js', array(), time(), true);
     wp_enqueue_script('service-overview-js', get_template_directory_uri() . '/assets/js/service-overview.js', array(), time(), true);
       wp_enqueue_script('global-presence-js', get_template_directory_uri() . '/assets/js/global-presence.js', array(), time(), true);
 }
