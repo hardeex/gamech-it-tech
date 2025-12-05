@@ -171,6 +171,7 @@
   padding: 15px;
 }
 
+
 .service-card:hover .service-card-inner {
   transform: translateY(-10px);
 }
@@ -402,13 +403,14 @@
 }
 
 .featured-content h3 {
-  color: white !important;
+  color: var(--brick);
   font-size: 24px;
   margin-bottom: 15px;
 }
 
 .featured-content p {
-  color: rgba(255, 255, 255, 0.9);
+  /* color: rgba(255, 255, 255, 0.9); */
+  color: var(--navy); 
   margin-bottom: 30px;
 }
 

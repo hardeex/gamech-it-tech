@@ -5,15 +5,15 @@ get_header();
 
 <!-- Hero Section -->
 <section class="about-hero-pro">
-    <div class="hero-background"></div>
-    <div class="hero-overlay"></div>
+    <div class="hero-background-about"></div>
+    <div class="hero-overlay-about"></div>
     <div class="container">
-        <div class="hero-content" data-aos="fade-up">
-            <span class="hero-label">About Us</span>
+        <div class="hero-content-about" data-aos="fade-up">
+            <span class="hero-label-about">About Us</span>
             <h1>Transforming Businesses Through <span class="highlight">Innovative Technology</span></h1>
-            <p class="hero-description">We are a global IT solutions provider delivering cutting-edge technology services and products to clients across 50+ countries. Our mission is to empower organizations to accelerate growth, enhance efficiency, and thrive in the digital age.</p>
+            <p class="hero-description-about">We are a global IT solutions provider delivering cutting-edge technology services and products to clients across 50+ countries. Our mission is to empower organizations to accelerate growth, enhance efficiency, and thrive in the digital age.</p>
             
-            <div class="hero-metrics">
+            <div class="hero-metrics-about">
                 <div class="metric-item">
                     <div class="metric-value" data-count="50">0</div>
                     <div class="metric-label">Countries Served</div>

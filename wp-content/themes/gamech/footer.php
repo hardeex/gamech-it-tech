@@ -40,9 +40,9 @@
                     <h4 class="footer-heading">Quick Links</h4>
                     <ul class="footer-menu">
                         <li><a href="<?php echo home_url('/'); ?>">Home</a></li>
+                         <li><a href="<?php echo home_url('/blog'); ?>">Blog</a></li>                        
                         <li><a href="<?php echo home_url('/about'); ?>">About Us</a></li>
-                        <li><a href="<?php echo home_url('/services'); ?>">Services</a></li>
-                        <li><a href="<?php echo home_url('/global-operations'); ?>">Global Operations</a></li>
+                        <li><a href="<?php echo home_url('/services'); ?>">Services</a></li>                      
                         <li><a href="<?php echo home_url('/contact'); ?>">Contact</a></li>
                     </ul>
                 </div>
@@ -73,7 +73,7 @@
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
                                 <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-9.638.182-.15 1.162-.943 1.162-.943l-3.521-6.795c-.982.717-5.447 4.25-5.447 8.539 0 10.29 11.044 20 18.5 20 3.793 0 7.5-3.718 7.5-7.5 0-1.062-.259-2.061-.707-2.94l-6.293-.939z"/>
                             </svg>
-                            <span>+1 (555) 123-4567</span>
+                            <span>+234 (081) 123 456 78</span>
                         </li>
                         <li>
                             <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">

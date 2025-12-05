@@ -52,7 +52,7 @@ get_header();
                 </div>
                 
                 <!-- Stats Counter -->
-                <div class="hero-stats">
+                <!-- <div class="hero-stats">
                     <div class="stat-item">
                         <span class="stat-number" data-target="150">0</span>
                         <span class="stat-label">Global Clients</span>
@@ -69,7 +69,7 @@ get_header();
                         <span class="stat-number" data-target="98">0</span>
                         <span class="stat-label">Client Satisfaction</span>
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <div class="hero-visual">
