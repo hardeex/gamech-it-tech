@@ -13,9 +13,11 @@ function gamechcustomtheme_enqueue_scripts() {
     wp_enqueue_style('nav-style', get_template_directory_uri() . '/assets/css/nav.css', [], time());
     wp_enqueue_style('hero-style', get_template_directory_uri() . '/assets/css/hero.css', [], time());
     wp_enqueue_style('about-style', get_template_directory_uri() . '/assets/css/about.css', [], time());
+    wp_enqueue_style('blog-style', get_template_directory_uri() . '/assets/css/blog.css', [], time());
+    wp_enqueue_style('single-post-style', get_template_directory_uri() . '/assets/css/single-post.css', [], time());
     wp_enqueue_style('our-service-style', get_template_directory_uri() . '/assets/css/our-service.css', [], time());
-        wp_enqueue_style('contact-interactive-style', get_template_directory_uri() . '/assets/css/contact-interactive.css', [], time());
-      wp_enqueue_style('services-professional-style', get_template_directory_uri() . '/assets/css/services-professional.css', [], time());
+    wp_enqueue_style('contact-interactive-style', get_template_directory_uri() . '/assets/css/contact-interactive.css', [], time());
+    wp_enqueue_style('services-professional-style', get_template_directory_uri() . '/assets/css/services-professional.css', [], time());
     wp_enqueue_style('about-snapshot-style', get_template_directory_uri() . '/assets/css/about-snapshot.css', [], time());
     wp_enqueue_style('global-presence-style', get_template_directory_uri() . '/assets/css/global-presence.css', [], time());
     wp_enqueue_style('footer-style', get_template_directory_uri() . '/assets/css/footer.css', [], time());
@@ -27,6 +29,8 @@ function gamechcustomtheme_enqueue_scripts() {
     wp_enqueue_script('hero-slider-js', get_template_directory_uri() . '/assets/js/hero-slider.js', array(), time(), true);
     wp_enqueue_script('about-snapshot-js', get_template_directory_uri() . '/assets/js/about-snapshot.js', array(), time(), true);
     wp_enqueue_script('about-js', get_template_directory_uri() . '/assets/js/about.js', array(), time(), true);
+    wp_enqueue_script('blog-js', get_template_directory_uri() . '/assets/js/blog.js', array(), time(), true);
+    wp_enqueue_script('single-post-js', get_template_directory_uri() . '/assets/js/single-post.js', array(), time(), true);
     wp_enqueue_script('service-overview-js', get_template_directory_uri() . '/assets/js/service-overview.js', array(), time(), true);
     wp_enqueue_script('services-professional-js', get_template_directory_uri() . '/assets/js/services-professional.js', array(), time(), true);
       wp_enqueue_script('contact-interactive-js', get_template_directory_uri() . '/assets/js/contact-interactive.js', array(), time(), true);
