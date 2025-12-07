@@ -114,7 +114,7 @@ get_header();
     </div>
     
     <!-- Slider Controls -->
-    <div class="slider-controls">
+    <!-- <div class="slider-controls">
         <button class="slider-btn prev-btn" aria-label="Previous slide">
             <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
@@ -125,7 +125,7 @@ get_header();
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
             </svg>
         </button>
-    </div>
+    </div> -->
     
     <!-- Slider Indicators -->
     <div class="slider-indicators">

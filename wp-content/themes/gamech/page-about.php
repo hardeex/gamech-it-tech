@@ -13,7 +13,7 @@ get_header();
             <h1>Transforming Businesses Through <span class="highlight">Innovative Technology</span></h1>
             <p class="hero-description-about">We are a global IT solutions provider delivering cutting-edge technology services and products to clients across 50+ countries. Our mission is to empower organizations to accelerate growth, enhance efficiency, and thrive in the digital age.</p>
             
-            <div class="hero-metrics-about">
+            <!-- <div class="hero-metrics-about">
                 <div class="metric-item">
                     <div class="metric-value" data-count="50">0</div>
                     <div class="metric-label">Countries Served</div>
@@ -30,7 +30,7 @@ get_header();
                     <div class="metric-value" data-count="15">0</div>
                     <div class="metric-label">Years Experience</div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
     
