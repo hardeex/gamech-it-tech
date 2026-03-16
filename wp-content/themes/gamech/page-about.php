@@ -12,7 +12,7 @@ get_header();
             <span class="hero-label-about">About Us</span>
             <h1>Transforming Businesses Through <span class="highlight">Innovative Technology</span></h1>
             <p class="hero-description-about">We are a global IT solutions provider delivering cutting-edge technology services and products to clients across 50+ countries. Our mission is to empower organizations to accelerate growth, enhance efficiency, and thrive in the digital age.</p>
-            
+
             <!-- <div class="hero-metrics-about">
                 <div class="metric-item">
                     <div class="metric-value" data-count="50">0</div>
@@ -33,7 +33,7 @@ get_header();
             </div> -->
         </div>
     </div>
-    
+
     <div class="scroll-prompt">
         <div class="scroll-line"></div>
         <span class="scroll-text">Scroll to explore</span>
@@ -48,7 +48,7 @@ get_header();
                 <div class="mv-header">
                     <div class="mv-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
                         </svg>
                     </div>
                     <h2>Our Mission</h2>
@@ -60,13 +60,13 @@ get_header();
                     <div class="feature-item">Sustainable Growth Focus</div>
                 </div>
             </div>
-            
+
             <div class="mv-block vision-block" data-aos="fade-left">
                 <div class="mv-header">
                     <div class="mv-icon-wrapper">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <circle cx="12" cy="12" r="3"/>
-                            <path d="M22 12c-2.667-4.667-6-7-10-7s-7.333 2.333-10 7c2.667 4.667 6 7 10 7s7.333-2.333 10-7z"/>
+                            <circle cx="12" cy="12" r="3" />
+                            <path d="M22 12c-2.667-4.667-6-7-10-7s-7.333 2.333-10 7c2.667 4.667 6 7 10 7s7.333-2.333 10-7z" />
                         </svg>
                     </div>
                     <h2>Our Vision</h2>
@@ -90,13 +90,13 @@ get_header();
             <h2>Comprehensive IT Solutions</h2>
             <p class="section-subtitle">End-to-end technology services designed to address your unique business challenges and accelerate digital transformation</p>
         </div>
-        
+
         <div class="services-grid">
             <div class="service-item" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <polyline points="16 18 22 12 16 6"/>
-                        <polyline points="8 6 2 12 8 18"/>
+                        <polyline points="16 18 22 12 16 6" />
+                        <polyline points="8 6 2 12 8 18" />
                     </svg>
                 </div>
                 <h3>Software Development</h3>
@@ -108,11 +108,11 @@ get_header();
                     <li>API Integration & Development</li>
                 </ul>
             </div>
-            
+
             <div class="service-item" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+                        <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z" />
                     </svg>
                 </div>
                 <h3>Cloud & Infrastructure</h3>
@@ -124,12 +124,12 @@ get_header();
                     <li>Disaster Recovery Solutions</li>
                 </ul>
             </div>
-            
+
             <div class="service-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 2L2 7l10 5 10-5-10-5z"/>
-                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                        <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
                     </svg>
                 </div>
                 <h3>Digital Transformation</h3>
@@ -141,12 +141,12 @@ get_header();
                     <li>Change Management Support</li>
                 </ul>
             </div>
-            
+
             <div class="service-item" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <rect x="2" y="7" width="20" height="14" rx="2"/>
-                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        <rect x="2" y="7" width="20" height="14" rx="2" />
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                     </svg>
                 </div>
                 <h3>E-Commerce Solutions</h3>
@@ -158,11 +158,11 @@ get_header();
                     <li>Analytics & Optimization</li>
                 </ul>
             </div>
-            
+
             <div class="service-item" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                     </svg>
                 </div>
                 <h3>Cybersecurity Services</h3>
@@ -174,12 +174,12 @@ get_header();
                     <li>Security Training & Awareness</li>
                 </ul>
             </div>
-            
+
             <div class="service-item" data-aos="fade-up" data-aos-delay="600">
                 <div class="service-icon">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"/>
-                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                     </svg>
                 </div>
                 <h3>Global IT Outsourcing</h3>
@@ -196,23 +196,23 @@ get_header();
 </section>
 
 <!-- Global Operations Section -->
-<section class="operations-pro">
+<!-- <section class="operations-pro">
     <div class="container">
         <div class="section-heading" data-aos="fade-up">
             <span class="section-label">Global Excellence</span>
             <h2>Our Operational Framework</h2>
             <p class="section-subtitle">A proven methodology for delivering exceptional results across continents</p>
         </div>
-        
+
         <div class="operations-timeline">
             <div class="timeline-item" data-aos="fade-right">
                 <div class="timeline-number">01</div>
                 <div class="timeline-content">
                     <h3>Strategic Global Presence</h3>
-                    <p>Operating from strategically positioned offices across six continents, we maintain local expertise while delivering global standards. Our distributed teams ensure round-the-clock service availability and cultural alignment with regional markets.</p>
+                    <p>Operating from strategically positioned offices across six continents, we maintain global standards. Our distributed teams ensure round-the-clock service availability and cultural alignment with regional markets.</p>
                 </div>
             </div>
-            
+
             <div class="timeline-item" data-aos="fade-left">
                 <div class="timeline-number">02</div>
                 <div class="timeline-content">
@@ -220,7 +220,7 @@ get_header();
                     <p>We customize our solutions to meet specific regional requirements, compliance standards, and cultural nuances. This localized approach ensures maximum relevance and effectiveness in each market we serve.</p>
                 </div>
             </div>
-            
+
             <div class="timeline-item" data-aos="fade-right">
                 <div class="timeline-number">03</div>
                 <div class="timeline-content">
@@ -228,7 +228,7 @@ get_header();
                     <p>Strategic resource allocation across our global network enables us to deliver premium services at competitive rates without compromising quality. Our operational model maximizes value for clients while maintaining excellence.</p>
                 </div>
             </div>
-            
+
             <div class="timeline-item" data-aos="fade-left">
                 <div class="timeline-number">04</div>
                 <div class="timeline-content">
@@ -236,7 +236,7 @@ get_header();
                     <p>Our flexible operational framework adapts to project requirements, whether you need centralized governance or decentralized execution. We scale resources dynamically to match your business needs.</p>
                 </div>
             </div>
-            
+
             <div class="timeline-item" data-aos="fade-right">
                 <div class="timeline-number">05</div>
                 <div class="timeline-content">
@@ -246,7 +246,7 @@ get_header();
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Core Values Section -->
 <section class="values-pro">
@@ -257,38 +257,38 @@ get_header();
             <h2>Core Values That Drive Us</h2>
             <p class="section-subtitle">The principles that guide every decision, interaction, and solution we deliver</p>
         </div>
-        
+
         <div class="values-grid">
             <div class="value-card" data-aos="zoom-in" data-aos-delay="100">
                 <div class="value-number">01</div>
                 <h3>Innovation Excellence</h3>
                 <p>We constantly push technological boundaries, embracing emerging trends and pioneering solutions that create competitive advantages for our clients.</p>
             </div>
-            
+
             <div class="value-card" data-aos="zoom-in" data-aos-delay="200">
                 <div class="value-number">02</div>
                 <h3>Unwavering Integrity</h3>
                 <p>Transparency, ethical practices, and honest communication form the foundation of our client relationships and internal culture.</p>
             </div>
-            
+
             <div class="value-card" data-aos="zoom-in" data-aos-delay="300">
                 <div class="value-number">03</div>
                 <h3>Quality Commitment</h3>
                 <p>We maintain the highest standards in every deliverable, ensuring exceptional quality through rigorous testing and continuous improvement.</p>
             </div>
-            
+
             <div class="value-card" data-aos="zoom-in" data-aos-delay="400">
                 <div class="value-number">04</div>
                 <h3>Collaborative Partnership</h3>
                 <p>Success is achieved together. We work closely with clients as true partners, combining expertise to achieve extraordinary outcomes.</p>
             </div>
-            
+
             <div class="value-card" data-aos="zoom-in" data-aos-delay="500">
                 <div class="value-number">05</div>
                 <h3>Client-Centric Focus</h3>
                 <p>Every solution is tailored to client needs. We prioritize understanding your business objectives and delivering measurable value.</p>
             </div>
-            
+
             <div class="value-card" data-aos="zoom-in" data-aos-delay="600">
                 <div class="value-number">06</div>
                 <h3>Continuous Learning</h3>

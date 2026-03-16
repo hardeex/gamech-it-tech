@@ -6,18 +6,18 @@
             <div class="about-snapshot-content" data-aos="fade-right">
                 <span class="section-label">Who We Are</span>
                 <h2 class="section-title">Empowering Global Growth Through Technology</h2>
-                
+
                 <div class="about-intro">
                     <p>
-                        We are a <strong>global IT solutions provider</strong> delivering innovative technology 
-                        services and products to clients across multiple countries. With a strong international 
-                        presence, we help organizations accelerate growth, improve efficiency, and navigate an 
+                        We are a <strong>global IT solutions provider</strong> delivering innovative technology
+                        services and products to clients across multiple countries. With a strong international
+                        presence, we help organizations accelerate growth, improve efficiency, and navigate an
                         increasingly digital world.
                     </p>
                 </div>
-                
+
                 <!-- Key Highlights -->
-                <div class="about-highlights">
+                <!-- <div class="about-highlights">
                     <div class="highlight-item">
                         <div class="highlight-icon">
                             <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -53,18 +53,18 @@
                             <p>Round-the-clock assistance ensuring operational continuity</p>
                         </div>
                     </div>
-                </div>
-                
+                </div> -->
+
                 <div class="about-cta">
                     <a href="<?php echo home_url('/about'); ?>" class="btn btn-primary">
                         Learn More About Us
                         <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                         </svg>
                     </a>
                 </div>
             </div>
-            
+
             <!-- Right Visual -->
             <div class="about-snapshot-visual" data-aos="fade-left">
                 <div class="visual-grid">
@@ -75,12 +75,12 @@
                             <span class="overlay-text">Global Teams</span>
                         </div>
                     </div>
-                    
+
                     <!-- Stats Cards -->
                     <div class="visual-card stat-card stat-card-1">
                         <div class="stat-icon">
                             <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                             </svg>
                         </div>
                         <div class="stat-content">
@@ -88,11 +88,11 @@
                             <span class="stat-label">Expert Professionals</span>
                         </div>
                     </div>
-                    
+
                     <div class="visual-card stat-card stat-card-2">
                         <div class="stat-icon">
                             <svg width="32" height="32" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                             </svg>
                         </div>
                         <div class="stat-content">
@@ -100,35 +100,35 @@
                             <span class="stat-label">Countries Served</span>
                         </div>
                     </div>
-                    
+
                     <!-- Technology Stack Icons -->
                     <div class="visual-card tech-card">
                         <div class="tech-icons">
                             <div class="tech-icon" title="Cloud Solutions">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
                                 </svg>
                             </div>
                             <div class="tech-icon" title="Security">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                 </svg>
                             </div>
                             <div class="tech-icon" title="Development">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                                 </svg>
                             </div>
                             <div class="tech-icon" title="Infrastructure">
                                 <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
                                 </svg>
                             </div>
                         </div>
                         <p class="tech-label">Comprehensive Tech Stack</p>
                     </div>
                 </div>
-                
+
                 <!-- Floating Badge -->
                 <!-- <div class="floating-badge">
                     <div class="badge-icon">
@@ -141,14 +141,14 @@
                         <span>For Global Enterprises</span>
                     </div>
                 </div> -->
-                
+
                 <!-- Decorative Elements -->
                 <div class="visual-decoration decoration-1"></div>
                 <div class="visual-decoration decoration-2"></div>
             </div>
         </div>
     </div>
-    
+
     <!-- Background Shapes -->
     <div class="about-shapes">
         <div class="about-shape shape-1"></div>
