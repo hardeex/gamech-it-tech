@@ -123,6 +123,22 @@ function gamechcustomtheme_enqueue_scripts()
     wp_enqueue_style('about-snapshot-style',        get_template_directory_uri() . '/assets/css/about-snapshot.css',        [], time());
     wp_enqueue_style('global-presence-style',       get_template_directory_uri() . '/assets/css/global-presence.css',       [], time());
     wp_enqueue_style('footer-style',                get_template_directory_uri() . '/assets/css/footer.css',                 [], time());
+    // Legal pages (Privacy Policy & Terms of Service)
+    wp_enqueue_style(
+        'legal-style',
+        get_template_directory_uri() . '/assets/css/legal.css',
+        [],
+        time()
+    );
+
+    wp_enqueue_script(
+        'legal-js',
+        get_template_directory_uri() . '/assets/js/legal.js',
+        [],
+        time(),
+        true
+    );
+
 
     // JavaScript files
     wp_enqueue_script('script-js',               get_template_directory_uri() . '/assets/js/script.js',               [], time(), true);

@@ -24,7 +24,7 @@ get_header();
 </section>
 
 <!-- Quick Contact Methods -->
-<section class="quick-contact">
+<!-- <section class="quick-contact">
     <div class="container">
         <div class="quick-contact-grid">
 
@@ -88,7 +88,7 @@ get_header();
 
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- =============================================
      CONTACT FORM SECTION
@@ -268,7 +268,7 @@ get_header();
 </section>
 
 <!-- Office Locations -->
-<section class="office-locations">
+<!-- <section class="office-locations">
     <div class="container">
         <div class="locations-grid">
 
@@ -328,7 +328,7 @@ get_header();
 
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- Availability Section -->
 <section class="availability-section">
