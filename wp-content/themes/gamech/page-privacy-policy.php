@@ -231,13 +231,23 @@ get_header(); ?>
                     <p>If you have questions, concerns, or requests regarding this Privacy Policy or how we handle your data, please reach out:</p>
                     <div class="legal-contact-card">
                         <div class="legal-contact-card__item">
-                            <span class="legal-contact-card__label">Company</span>
-                            <span>Gamech Limited</span>
+                            <span class="legal-contact-card__label">Business Name</span>
+                            <span>Gamech Ltd</span>
+                            <span> (Registered in England and Wales)</span>
                         </div>
                         <div class="legal-contact-card__item">
                             <span class="legal-contact-card__label">Email</span>
                             <a href="mailto:info@gamechltd.com">info@gamechltd.com</a>
                         </div>
+                        <div class="legal-contact-card__item">
+                            <span class="legal-contact-card__label">Company Number: </span>
+                            <span class="legal-contact-card__label">13059051</span>
+
+                        </div>
+                        <!-- <div class="legal-contact-card__item">
+                            <span class="legal-contact-card__label"> Registered in England and Wales</span>
+                            <a href="mailto:info@gamechltd.com">info@gamechltd.com</a>
+                        </div> -->
                         <div class="legal-contact-card__item">
                             <span class="legal-contact-card__label">Website</span>
                             <a href="<?php echo esc_url(home_url('/')); ?>"><?php echo esc_url(home_url('/')); ?></a>
